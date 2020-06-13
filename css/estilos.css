@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(32, 32, 32);
+}
+header nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.izquierda{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.izquierda .logo{
+    width: 20%;
+}
+.izquierda .logo img{
+    width: 100%; /* si quieres hacer mas pequeño tu logo, reduce el porcentaje*/
+}
+.izquierda a{
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 20px;
+    border-bottom: 1px solid transparent;
+}
+.izquierda a:hover{
+    cursor: pointer;
+    color: rgb(15, 90, 230);
+    transition: .2s;
+    border-bottom: 1px solid rgb(15, 90, 230);
+    margin-bottom: 10px;
+    
+}
+/* Estilos a la Seccion Derecha */
+.derecha .iniciar{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    /* color: black; */
+    background: rgb(37, 114, 255);
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    letter-spacing: .5px;
+}
+.derecha .iniciar:hover{
+    /* font-size: 18px; */
+    background: rgb(3, 63, 173);
+    transition: .5s;
+    color: white;
+}
+.derecha .ingresar{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    letter-spacing: .5px;
+    color: white;
+}
+.derecha .ingresar:hover{
+    border-bottom: 1px solid white;
+}
+/* Categorias */
+.categorias {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.categorias a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 124, 182);
+    margin: 20px;
+}
